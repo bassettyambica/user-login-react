@@ -1,11 +1,9 @@
-/*
-Signup form using reactjs
-*/
+**Signup form using reactjs**
 
 Steps to run the project on local server
-1)Download /Clone repository .
-2)In terminal reach to project folder and run : npm install
-3)Command: npm start
+- Download /Clone repository in terminal using "git clone https://github.com/bassettyambica/user-login-react.git"
+- In terminal reach to project folder and run : npm install
+- Now run the command: npm start
 
 Overview Create a sign up page:
 1)Username field: Accepts email and throws error if length >56.required
