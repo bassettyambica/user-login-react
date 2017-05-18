@@ -1,0 +1,14 @@
+.labelClass {
+    padding: 10px 10px 0px 10px;
+}
+
+input {
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    border-color: blue;
+}
+
+.inputComponent {
+    display: block;
+}

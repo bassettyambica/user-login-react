@@ -1,64 +1,14 @@
-html, body, div,{
-	margin: 0;
-	padding: 0;
-	border: 0;
-	outline: 0;
-	font-size: 100%;
-	vertical-align: baseline;
-	background: transparent;
+Form {
+	width: 50%;
+	padding-top: 10%;
+	margin: auto;
 }
-body {
-	background: #DCDDDF url(http://cssdeck.com/uploads/media/items/7/7AF2Qzt.png);
-	color: #000;
-	font: 14px Arial;
-	margin: 0 auto;
-	padding: 0;
-	position: relative;
-}
-h1{
-  font-size:28px;
-  color:#563D64;
-}
-.container { margin: 25px auto; position: relative; width: 900px;
 
- }
-.create-account-screen {
-  background: #eceeee;
-  border: 1px solid #42464b;
-  border-radius: 6px;
-  height: 257px;
-  margin: 20px auto 0;
-  width: 298px;
+#dataPicker {
+	padding-left: 10%;
 }
+
 button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 0px;
-    margin: 8px 30px;
-    border: none;
-    cursor: pointer;
-    width: 20%;
-    float: left;
-}
-
-.application_wrapper{
-  display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 100%;
-  width: 100%;
-}
-
-.application_routeHandler{
-  max-width: 325px;
-  width: 100%;
-  border: 1px solid $very-light-grey;
-  border-radius: 3px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
-  background-color: #fff;
-}
-.h1{
-  text-align: center;
-  font-size: 1em;
-  user-select: none;
+	width: 20%;
+    margin-left: 45%;
 }
