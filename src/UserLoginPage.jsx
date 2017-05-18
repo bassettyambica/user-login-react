@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Input from './components/Input';
 import ErrorMessage from './components/ErrorMessage';
-import { Form, FormGroup, ControlLabel, Col, Button} from 'react-bootstrap';
+import { Form, FormGroup, ControlLabel, Col, Button, PageHeader} from 'react-bootstrap';
 import DatePicker from 'react-bootstrap-date-picker';
 
 import './App.css';
@@ -93,6 +93,7 @@ class UserLoginPage extends Component {
 		{let btnstatus = this.state.isValid? '':'disabled'}
 		return (
 			 <Form horizontal>
+				 <PageHeader id="pageHeader">Signup Form</PageHeader>
 				<Input
 					labelName="Email"
 					placeholder="enter email here"
